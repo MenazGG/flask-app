@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Questionnaire</title>
+
+<style>
+
+body {
+    background: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: linear-gradient(to right, #04AA6D, #1bb17a, #04AA6D);
+    color: black;
+    padding: 1rem;
+    text-align: center;
+}
+
+article {
+    background-color: #d7fbe8;
+    height: 100vh;
+
+    /* CENTER EVERYTHING */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vertical-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 350px;
+}
+
+.testbtn {
+    background-color: #04AA6D;
+    color: white;
+    font-size: 18px;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.testbtn:hover {
+    background-color: #059862;
+    transform: scale(1.03);
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+    <h2>What level are you?</h2>
+</header>
+
+<article>
+
+<div class="vertical-buttons">
+
+    <a href="aslevel.html" class="testbtn">
+        Currently AS/A Level
+    </a>
+
+    <a href="currently_olevel.html" class="testbtn">
+        Currently GCSE/O Level/IGCSE
+    </a>
+
+    <a href="finished_olevel.html" class="testbtn">
+        Finished GCSE/O Level/IGCSE
+    </a>
+
+    <a href="finished_as.html" class="testbtn">
+        Finished AS/A Level
+    </a>
+
+</div>
+
+</article>
+
+</body>
+</html>
